@@ -1,0 +1,32 @@
+body{
+    font-family: "Roboto";
+    background-color:#E1E8D5 ;
+}
+nav ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+ a{
+color:rgb(30, 54, 190);
+}
+nav a:hover{
+    color: rgb(90, 15, 139);
+}
+img {
+    width:20%;
+}
+.floatleft{
+float:left;
+margin: 0 1rem 1rem 0;
+ }
+ .about:after {
+ content: "";
+ display: table;
+ clear: both;
+ }
+.contact{
+    margin: 0;
+    padding: 0;
+
+}

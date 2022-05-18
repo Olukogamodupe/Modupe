@@ -1,0 +1,120 @@
+ /* Dropdown Button */
+ 
+body{
+  font-family: "Roboto";
+  }
+
+ .dropbtn {
+    background-color: #3304aa;
+    color: white; 
+    padding: 13px; 
+    margin:10px;
+    font-size: 16px; 
+    border: none; 
+    cursor: pointer; 
+  }
+  .dropbtn:hover{
+      background-color:#1b77bd;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */ 
+  .dropdown {
+    position: relative; 
+    display: inline-block; 
+  
+  }
+
+  /* Dropdown Content */
+  .dropdown-content { 
+    display: none; 
+    position: absolute; 
+    background-color: #999da1;
+    min-width: 100px; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;} 
+
+#myDropdown, #float{
+    width:50%;
+    float: right;
+    text-align:left;
+}
+.links {
+    font-size:100%;
+    padding:1rem;
+}
+.links ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  font-size: 20px;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+  gap:1.5rem;
+}
+.name-float a{
+text-decoration: none;
+}
+.name {
+  text-align: center;
+}
+.name a{
+  text-decoration: none; 
+}
+nav a{
+  color:#3304aa;
+  
+}
+nav a:hover{
+  color:rgb(39, 32, 124);
+}
+img{
+  width:30%;
+}
+.floatleft{
+  float:left;
+  margin: 0 1rem 1rem 0;
+  width:30%
+}
+.story:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.story{
+  background-color: #D5F5ED;
+}
+.article{
+  margin-top:30px;
+  padding:2px;
+  
+}
+.list-article{
+  margin-bottom:40px;
+  padding:10px;
+  border:3px solid #BCD4BF;
+  background-color: #D5F5ED;
+}
+
+h1{
+text-align: center;
+}
+.center{
+  text-align: center;
+}
