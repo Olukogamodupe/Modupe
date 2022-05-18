@@ -66,7 +66,7 @@ body{
   flex-flow: row wrap;
   justify-content: center;
   text-align: center;
-  gap:1.5rem;
+  gap:2rem;
 }
 .name-float a{
 text-decoration: none;
@@ -85,7 +85,7 @@ nav a:hover{
   color:rgb(39, 32, 124);
 }
 img{
-  width:30%;
+  width:100%;
 }
 .floatleft{
   float:left;
